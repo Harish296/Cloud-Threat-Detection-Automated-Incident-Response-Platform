@@ -1,2 +1,2 @@
 # Cloud-Threat-Detection-Automated-Incident-Response-Platform
-This project is an automated threat detection and response system on AWS that identifies, analyzes, and mitigates security incidents in real time.
+This project builds an automated cloud security system on AWS that detects, analyzes, and responds to security threats in real time. It integrates Amazon GuardDuty for threat detection, AWS Lambda for automated incident response, EventBridge for orchestration, and CloudWatch Dashboards for visibility. The system is fully automated to isolate and remediate threats across IAM, S3, and EC2 disabling compromised IAM users, restricting vulnerable S3 buckets, and quarantining EC2 instances. Each response is logged, visualized in the dashboard, and notified via SNS.
